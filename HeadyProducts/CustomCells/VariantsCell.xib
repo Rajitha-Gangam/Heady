@@ -67,7 +67,7 @@
                         </subviews>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                <integer key="value" value="1"/>
+                                <integer key="value" value="2"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                 <integer key="value" value="10"/>
@@ -84,6 +84,9 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="lblColor" destination="6uV-QW-EPz" id="peT-vd-JJj"/>
+                <outlet property="lblPrice" destination="Qf3-M1-u9i" id="xSR-so-b4O"/>
+                <outlet property="lblSize" destination="PTW-LZ-zUf" id="1TT-cN-whh"/>
                 <outlet property="viewContent" destination="pAq-iD-OGe" id="bJL-v6-ZMc"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="92.410714285714278"/>
